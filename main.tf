@@ -8,6 +8,6 @@ resource "aws_ssm_parameter" "main" {
 
 variable "parameters" {
   default = {
-    "para" = { type = "string", value = "docdb" }
+    "para" = { type="string", value = "docdb" }
   }
 }

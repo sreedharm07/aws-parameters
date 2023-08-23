@@ -1,12 +1,13 @@
 resource "aws_ssm_parameter" "main" {
   for_each = var.parameters
-  name  = each.key
+  name  = "${each.key}-dev-docdb}"
   type  = each.value["type"]
   value = each.value["value"]
 }
 
+
 variable "parameters" {
   default = {
-    "docdb-dev-username" = { type = "string", value = "docdbadmin" }
+    "para" = { type = "string", value = "docdb" }
   }
 }

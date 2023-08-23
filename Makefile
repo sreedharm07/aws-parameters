@@ -1,4 +1,4 @@
 default:
 	git pull
 	terraform init
-	terraform apply -auto-approve -var-file=var.tfvars
+	terraform apply -auto-approve

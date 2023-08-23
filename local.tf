@@ -1,3 +1,0 @@
-locals {
-  parameter_name =
-}

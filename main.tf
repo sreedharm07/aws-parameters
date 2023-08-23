@@ -5,3 +5,8 @@ resource "aws_ssm_parameter" "main" {
   value = each.value["value"]
 }
 
+variable "parameters" {
+  default = {
+    "docdb-dev-username" = { type = "string", value = "docdbadmin" }
+  }
+}

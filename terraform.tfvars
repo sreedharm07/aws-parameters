@@ -1,7 +1,7 @@
 parameters = {
   "docdb-dev-username" = { type = "String", value = "roboshopdocdb" }
 
-  "rds-dev-dbname"   = { type = "String", value = "mysql" }
+  "rds-dev-dbname"   = { type = "String", value = "mysql31" }
   "rds-dev-username" = { type = "String", value = "rdsuserdb" }
 
 

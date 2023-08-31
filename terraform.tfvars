@@ -7,6 +7,7 @@ parameters = {
   "db.dev.username" = { type = "String", value = "roboshopdocdb" }
 
 
+  "user.dev.redis"= {type = "string", value = "redis-dev.cloudev7.online"}
 
 
   #passwords

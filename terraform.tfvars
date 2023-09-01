@@ -7,6 +7,8 @@ parameters = {
     type = "String", value = "dev-docdb-cluster.cluster-cbdb4ns9r3ce.us-east-1.docdb.amazonaws.com"
   }
   "db.dev.username" = { type = "String", value = "roboshopdocdb" }
+  "db.dev.password" = { type = "String", value = "roboshop123" }
+
 
 
   "user.dev.redishost" = {

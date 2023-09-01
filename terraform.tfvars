@@ -22,10 +22,10 @@ parameters = {
   "cart.dev.catalogueport" = { type = "String", value = "80" }
 
   "shipping.dev.cartendpoint" = { type = "String", value = "cart-dev.cloudev7.online:80" }
-  "shipping.dev.dbhost"       = {type = "String", value = "dev-mysql-rds-cluster.cluster-cmscnppwjzuf.us-east-1.rds.amazonaws.com"}
+  "shipping.dev.dbhost"       = {type = "String", value = " dev-mysql-cluster.cluster-cbdb4ns9r3ce.us-east-1.rds.amazonaws.com"}
   "shipping.dev.mysqluname" = { type = "String", value = "root" }
   "shipping.dev.mysqlpassword" = { type = "String", value = "RoboShop@1" }
-
+#  dev-mysql-cluster.cluster-cbdb4ns9r3ce.us-east-1.rds.amazonaws.com
 
   "payment.dev.carthost" = { type = "String", value = "cart-dev.cloudev7.online:80" }
   "payment.dev.cartport" = { type = "String", value = "80" }

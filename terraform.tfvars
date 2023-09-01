@@ -20,9 +20,7 @@ parameters = {
   "cart.dev.catalogueport" = { type = "string", value = "80" }
 
   "shipping.dev.cartendpoint" = { type = "string", value = "cart-dev.cloudev7.online:80" }
-  "shipping.dev.dbhost"       = {
-    type = "string", value = "dev-mysql-rds-cluster.cluster-cmscnppwjzuf.us-east-1.rds.amazonaws.com"
-  }
+  "shipping.dev.dbhost"       = {type = "string", value = "dev-mysql-rds-cluster.cluster-cmscnppwjzuf.us-east-1.rds.amazonaws.com"}
 
   "payment.dev.carthost" = { type = "string", value = "cart-dev.cloudev7.online:80" }
   "payment.dev.cartport" = { type = "string", value = "80" }

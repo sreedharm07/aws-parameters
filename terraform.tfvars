@@ -18,14 +18,12 @@ parameters = {
   "cart.dev.redishost" = {
     type = "String", value = "dev-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com"
   }
-
-  #  dev-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com
-
   "cart.dev.cataloguehost" = { type = "String", value = "catalogue-dev.cloudev7.online" }
   "cart.dev.catalogueport" = { type = "String", value = "80" }
 
   "shipping.dev.cartendpoint" = { type = "String", value = "cart-dev.cloudev7.online:80" }
   "shipping.dev.dbhost"       = {type = "String", value = "dev-mysql-rds-cluster.cluster-cmscnppwjzuf.us-east-1.rds.amazonaws.com"}
+
 
   "payment.dev.carthost" = { type = "String", value = "cart-dev.cloudev7.online:80" }
   "payment.dev.cartport" = { type = "String", value = "80" }

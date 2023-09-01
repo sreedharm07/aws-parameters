@@ -23,6 +23,8 @@ parameters = {
 
   "shipping.dev.cartendpoint" = { type = "String", value = "cart-dev.cloudev7.online:80" }
   "shipping.dev.dbhost"       = {type = "String", value = "dev-mysql-rds-cluster.cluster-cmscnppwjzuf.us-east-1.rds.amazonaws.com"}
+  "shipping.dev.mysqluname" = { type = "String", value = "root" }
+  "shipping.dev.mysqlpassword" = { type = "String", value = "RoboShop@1" }
 
 
   "payment.dev.carthost" = { type = "String", value = "cart-dev.cloudev7.online:80" }

@@ -37,7 +37,7 @@ parameters = {
 
   "dispatch.dev.amqphost" = { type = "String", value = "rabbitmq-dev.cloudev7.online:80" }
   "dispatch.dev.amqpuser" = { type = "String", value = "roboshop" }
-  "dispatch.dev.amqppass" = { type = "String", value = "roboshop123" }
+  "dispatch.dev.amqppass" = { type = "String", value = "roboshop123"}
 
   "docdb-dev-username" = { type = "String", value = "roboshopdocdb" }
 

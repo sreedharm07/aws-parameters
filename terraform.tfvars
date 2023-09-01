@@ -12,12 +12,15 @@ parameters = {
 
 
   "user.dev.redishost" = {
-    type = "String", value = "dev-redis-elasticache-cluster.ppugfs.0001.use1.cache.amazonaws.com"
+#    type = "String", value = "dev-redis-elasticache-cluster.ppugfs.0001.use1.cache.amazonaws.com"
+    type = "String", value = "dev-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com"
+  }
+  "cart.dev.redishost" = {
+    type = "String", value = "dev-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com"
   }
 
-  "cart.dev.redishost" = {
-    type = "String", value = "dev-redis-elasticache-cluster.ppugfs.0001.use1.cache.amazonaws.com"
-  }
+  #  dev-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com
+
   "cart.dev.cataloguehost" = { type = "String", value = "catalogue-dev.cloudev7.online" }
   "cart.dev.catalogueport" = { type = "String", value = "80" }
 

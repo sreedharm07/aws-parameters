@@ -10,29 +10,29 @@ parameters = {
 
 
   "user.dev.redishost" = {
-    type = "string", value = "dev-redis-elasticache-cluster.ppugfs.0001.use1.cache.amazonaws.com"
+    type = "String", value = "dev-redis-elasticache-cluster.ppugfs.0001.use1.cache.amazonaws.com"
   }
 
   "cart.dev.redishost" = {
-    type = "string", value = "dev-redis-elasticache-cluster.ppugfs.0001.use1.cache.amazonaws.com"
+    type = "String", value = "dev-redis-elasticache-cluster.ppugfs.0001.use1.cache.amazonaws.com"
   }
-  "cart.dev.cataloguehost" = { type = "string", value = "catalogue-dev.cloudev7.online" }
-  "cart.dev.catalogueport" = { type = "string", value = "80" }
+  "cart.dev.cataloguehost" = { type = "String", value = "catalogue-dev.cloudev7.online" }
+  "cart.dev.catalogueport" = { type = "String", value = "80" }
 
-  "shipping.dev.cartendpoint" = { type = "string", value = "cart-dev.cloudev7.online:80" }
-  "shipping.dev.dbhost"       = {type = "string", value = "dev-mysql-rds-cluster.cluster-cmscnppwjzuf.us-east-1.rds.amazonaws.com"}
+  "shipping.dev.cartendpoint" = { type = "String", value = "cart-dev.cloudev7.online:80" }
+  "shipping.dev.dbhost"       = {type = "String", value = "dev-mysql-rds-cluster.cluster-cmscnppwjzuf.us-east-1.rds.amazonaws.com"}
 
-  "payment.dev.carthost" = { type = "string", value = "cart-dev.cloudev7.online:80" }
-  "payment.dev.cartport" = { type = "string", value = "80" }
-  "payment.dev.userhost" = { type = "string", value = "user-dev.cloudev7.online:80" }
-  "payment.dev.userport" = { type = "string", value = "80" }
-  "payment.dev.amqphost" = { type = "string", value = "rabbitmq-dev.cloudev7.online:80" }
-  "payment.dev.amqpuser" = { type = "string", value = "roboshop" }
-  "payment.dev.amqppass" = { type = "string", value = "roboshop123" }
+  "payment.dev.carthost" = { type = "String", value = "cart-dev.cloudev7.online:80" }
+  "payment.dev.cartport" = { type = "String", value = "80" }
+  "payment.dev.userhost" = { type = "String", value = "user-dev.cloudev7.online:80" }
+  "payment.dev.userport" = { type = "String", value = "80" }
+  "payment.dev.amqphost" = { type = "String", value = "rabbitmq-dev.cloudev7.online:80" }
+  "payment.dev.amqpuser" = { type = "String", value = "roboshop" }
+  "payment.dev.amqppass" = { type = "String", value = "roboshop123" }
 
-  "dispatch.dev.amqphost" = { type = "string", value = "rabbitmq-dev.cloudev7.online:80" }
-  "dispatch.dev.amqpuser" = { type = "string", value = "roboshop" }
-  "dispatch.dev.amqppass" = { type = "string", value = "roboshop123" }
+  "dispatch.dev.amqphost" = { type = "String", value = "rabbitmq-dev.cloudev7.online:80" }
+  "dispatch.dev.amqpuser" = { type = "String", value = "roboshop" }
+  "dispatch.dev.amqppass" = { type = "String", value = "roboshop123" }
 
 
 

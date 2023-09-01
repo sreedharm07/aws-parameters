@@ -27,11 +27,11 @@ parameters = {
   "shipping.dev.mysqlpassword" = { type = "String", value = "rds123321123" }
 #  dev-mysql-cluster.cluster-cbdb4ns9r3ce.us-east-1.rds.amazonaws.com
 
-  "payment.dev.carthost" = { type = "String", value = "cart-dev.cloudev7.online:80" }
+  "payment.dev.carthost" = { type = "String", value = "cart-dev.cloudev7.online" }
   "payment.dev.cartport" = { type = "String", value = "80" }
-  "payment.dev.userhost" = { type = "String", value = "user-dev.cloudev7.online:80" }
+  "payment.dev.userhost" = { type = "String", value = "user-dev.cloudev7.online" }
   "payment.dev.userport" = { type = "String", value = "80" }
-  "payment.dev.amqphost" = { type = "String", value = "rabbitmq-dev.cloudev7.online:80" }
+  "payment.dev.amqphost" = { type = "String", value = "rabbitmq-dev.cloudev7.online" }
   "payment.dev.amqpuser" = { type = "String", value = "roboshop" }
   "payment.dev.amqppass" = { type = "String", value = "roboshop123" }
 

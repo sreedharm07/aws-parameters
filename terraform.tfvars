@@ -34,7 +34,7 @@ parameters = {
   "dispatch.dev.amqpuser" = { type = "String", value = "roboshop" }
   "dispatch.dev.amqppass" = { type = "String", value = "roboshop123" }
 
-
+  "docdb-dev-password" = { type = "String", value = "roboshopdocdb" }
 
   #passwords
   "docdb-dev-password" = { type = "String", value = "roboshop123" }

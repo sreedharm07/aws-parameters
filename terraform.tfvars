@@ -35,7 +35,7 @@ parameters = {
   "payment.dev.amqpuser" = { type = "String", value = "roboshop" }
   "payment.dev.amqppass" = { type = "String", value = "roboshop123" }
 
-  "dispatch.dev.amqphost" = { type = "String", value = "rabbitmq-dev.cloudev7.online:80" }
+  "dispatch.dev.amqphost" = { type = "String", value = "rabbitmq-dev.cloudev7.online" }
   "dispatch.dev.amqpuser" = { type = "String", value = "roboshop" }
   "dispatch.dev.amqppass" = { type = "String", value = "roboshop123"}
 

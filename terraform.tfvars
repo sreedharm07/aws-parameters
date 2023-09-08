@@ -44,4 +44,8 @@ parameters = {
   #passwords
   "docdb-dev-password" = { type = "String", value = "roboshop123" }
   "rds-dev-password"   = { type = "String", value = "rds123321123" }
+
+  #elasticslash
+  "elastic-username" = { type = "String", value = "elastic" }
+  "elastic-password" = { type = "secureString", value = "aiRf4v9w8PPxBCO+Z5-b" }
 }

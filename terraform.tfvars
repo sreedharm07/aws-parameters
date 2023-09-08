@@ -47,5 +47,5 @@ parameters = {
 
   #elasticslash
   "elastic-username" = { type = "String", value = "elastic" }
-  "elastic-password" = { type = "secureString", value = "aiRf4v9w8PPxBCO+Z5-b" }
+  "elastic-password" = { type = "SecureString", value = "aiRf4v9w8PPxBCO+Z5-b" }
 }

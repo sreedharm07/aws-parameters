@@ -55,9 +55,9 @@ parameters = {
 
   "payment.dev.appversion" = { type = "String", value = "1.0.0" }
   "frontend.dev.appversion" = { type = "String", value = "1.0.0" }
-  "catalogue.dev.appversion" = { type = "String", value = "1.0.0" }
-  "user.dev.appversion" = { type = "String", value = "1.0.0" }
+  "catalogue.dev.appversion" = { type = "String", value = "1.0.1" }
+  "user.dev.appversion" = { type = "String", value = "1.0.1" }
   "cart.dev.appversion" = { type = "String", value = "1.0.0" }
-  "shipping.dev.appversion" = { type = "String", value = "1.0.0" }
+  "shipping.dev.appversion" = { type = "String", value = "1.0.1" }
 
 }

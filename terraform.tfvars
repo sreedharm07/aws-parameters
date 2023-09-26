@@ -53,5 +53,11 @@ parameters = {
   "nexus.dev.username" = { type = "String", value = "admin" }
   "nexus.dev.password" = { type = "String", value = "admin123" }
 
-  "app.version" = { type = "String", value = "1.0.0" }
+  "payment.dev.appversion" = { type = "String", value = "1.0.0" }
+  "frontend.dev.appversion" = { type = "String", value = "1.0.0" }
+  "catalogue.dev.appversion" = { type = "String", value = "1.0.0" }
+  "user.dev.appversion" = { type = "String", value = "1.0.0" }
+  "cart.dev.appversion" = { type = "String", value = "1.0.0" }
+  "shipping.dev.appversion" = { type = "String", value = "1.0.0" }
+
 }

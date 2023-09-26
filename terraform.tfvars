@@ -50,8 +50,8 @@ parameters = {
   "elastic-password" = { type = "SecureString", value = "aiRf4v9w8PPxBCO+Z5-b" }
 
   #nexus
-  "nexus.dev.username" = { type = "String", Value = "admin" }
-  "nexus.dev.password" = { type = "String", Value = "admin123" }
+  "nexus.dev.username" = { type = "String", value = "admin" }
+  "nexus.dev.password" = { type = "String", value = "admin123" }
 
-  "app.version" = { type = "String", Value = "1.0.0" }
+  "app.version" = { type = "String", value = "1.0.0" }
 }

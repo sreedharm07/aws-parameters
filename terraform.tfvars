@@ -48,4 +48,10 @@ parameters = {
   #elasticslash
   "elastic-username" = { type = "String", value = "elastic" }
   "elastic-password" = { type = "SecureString", value = "aiRf4v9w8PPxBCO+Z5-b" }
+
+  #nexus
+  "nexus.dev.username" = { type = "String", Value = "admin" }
+  "nexus.dev.password" = { type = "String", Value = "admin123" }
+
+  "app.version" = { type = "String", Value = "1.0.0" }
 }

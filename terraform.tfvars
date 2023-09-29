@@ -60,4 +60,62 @@ parameters = {
   "cart.dev.appversion" = { type = "String", value = "1.0.0" }
   "shipping.dev.appversion" = { type = "String", value = "1.0.1" }
 
+
+
+  "rds-dev-dbname" = { type = "String", value = "mysql31" }
+  "rds-dev-username" = { type = "String", value = "rdsuserdb" }
+
+  "db.dev.backend" = {
+    type = "String", value = "dev-docdb-cluster.cluster-cbdb4ns9r3ce.us-east-1.docdb.amazonaws.com"
+  }
+  "db.dev.username" = { type = "String", value = "roboshopdocdb" }
+  "db.dev.password" = { type = "SecureString", value = "roboshop123" }
+
+# for prod
+
+  "user.prod.redishost" = {
+    #    type = "String", value = "dev-redis-elasticache-cluster.ppugfs.0001.use1.cache.amazonaws.com"
+    type = "String", value = "dev-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com"
+  }
+  "cart.prod.redishost" = {
+    type = "String", value = "dev-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com"
+  }
+  "cart.prod.cataloguehost" = { type = "String", value = "catalogue-dev.cloudev7.online" }
+  "cart.prod.catalogueport" = { type = "String", value = "80" }
+
+  "shipping.prod.cartendpoint" = { type = "String", value = "cart-dev.cloudev7.online:80" }
+  "shipping.prod.dbhost"       = {type = "String", value = "dev-mysql-cluster.cluster-cbdb4ns9r3ce.us-east-1.rds.amazonaws.com"}
+  "shipping.prod.mysqluname" = { type = "String", value = "rdsuserdb" }
+  "shipping.prod.mysqlpassword" = { type = "SecureString", value = "rds123321123" }
+  #  dev-mysql-cluster.cluster-cbdb4ns9r3ce.us-east-1.rds.amazonaws.com
+
+  "payment.prod.carthost" = { type = "String", value = "cart-dev.cloudev7.online" }
+  "payment.prod.cartport" = { type = "String", value = "80" }
+  "payment.prod.userhost" = { type = "String", value = "user-dev.cloudev7.online" }
+  "payment.prod.userport" = { type = "String", value = "80" }
+  "payment.prod.amqphost" = { type = "String", value = "rabbitmq-dev.cloudev7.online" }
+  "payment.prod.amqpuser" = { type = "String", value = "roboshop" }
+  "payment.prod.amqppass" = { type = "String", value = "roboshop123" }
+
+  "dispatch.prod.amqphost" = { type = "String", value = "rabbitmq-dev.cloudev7.online" }
+  "dispatch.dev.amqpuser" = { type = "String", value = "roboshop" }
+  "dispatch.prod.amqppass" = { type = "String", value = "roboshop123"}
+
+  "docdb-prod-username" = { type = "String", value = "roboshopdocdb" }
+
+  #passwords
+  "docdb-prod-password" = { type = "SecureString", value = "roboshop123" }
+  "rds-prod-password"   = { type = "SecureString", value = "rds123321123" }
+
+
+  #nexus
+  "nexus.prod.username" = { type = "String", value = "admin" }
+  "nexus.prod.password" = { type = "SecureString", value = "admin123" }
+
+  "payment.prod.appversion" = { type = "String", value = "1.0.0" }
+  "frontend.prod.appversion" = { type = "String", value = "1.0.0" }
+  "catalogue.prod.appversion" = { type = "String", value = "1.0.1" }
+  "user.prod.appversion" = { type = "String", value = "1.0.2" }
+  "cart.prod.appversion" = { type = "String", value = "1.0.0" }
+  "shipping.prod.appversion" = { type = "String", value = "1.0.1" }
 }

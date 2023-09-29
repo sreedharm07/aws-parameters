@@ -75,29 +75,29 @@ parameters = {
 
   "user.prod.redishost" = {
     #    type = "String", value = "dev-redis-elasticache-cluster.ppugfs.0001.use1.cache.amazonaws.com"
-    type = "String", value = "dev-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com"
+    type = "String", value = "prod-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com"
   }
   "cart.prod.redishost" = {
-    type = "String", value = "dev-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com"
+    type = "String", value = "prod-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com"
   }
-  "cart.prod.cataloguehost" = { type = "String", value = "catalogue-dev.cloudev7.online" }
+  "cart.prod.cataloguehost" = { type = "String", value = "catalogue-prod.cloudev7.online" }
   "cart.prod.catalogueport" = { type = "String", value = "80" }
 
-  "shipping.prod.cartendpoint" = { type = "String", value = "cart-dev.cloudev7.online:80" }
-  "shipping.prod.dbhost"       = {type = "String", value = "dev-mysql-cluster.cluster-cbdb4ns9r3ce.us-east-1.rds.amazonaws.com"}
+  "shipping.prod.cartendpoint" = { type = "String", value = "cart-prod.cloudev7.online:80" }
+  "shipping.prod.dbhost"       = {type = "String", value = "prod-mysql-cluster.cluster-cbdb4ns9r3ce.us-east-1.rds.amazonaws.com"}
   "shipping.prod.mysqluname" = { type = "String", value = "rdsuserdb" }
   "shipping.prod.mysqlpassword" = { type = "SecureString", value = "rds123321123" }
   #  dev-mysql-cluster.cluster-cbdb4ns9r3ce.us-east-1.rds.amazonaws.com
 
-  "payment.prod.carthost" = { type = "String", value = "cart-dev.cloudev7.online" }
+  "payment.prod.carthost" = { type = "String", value = "cart-prod.cloudev7.online" }
   "payment.prod.cartport" = { type = "String", value = "80" }
-  "payment.prod.userhost" = { type = "String", value = "user-dev.cloudev7.online" }
+  "payment.prod.userhost" = { type = "String", value = "user-prod.cloudev7.online" }
   "payment.prod.userport" = { type = "String", value = "80" }
-  "payment.prod.amqphost" = { type = "String", value = "rabbitmq-dev.cloudev7.online" }
+  "payment.prod.amqphost" = { type = "String", value = "rabbitmq-prod.cloudev7.online" }
   "payment.prod.amqpuser" = { type = "String", value = "roboshop" }
   "payment.prod.amqppass" = { type = "String", value = "roboshop123" }
 
-  "dispatch.prod.amqphost" = { type = "String", value = "rabbitmq-dev.cloudev7.online" }
+  "dispatch.prod.amqphost" = { type = "String", value = "rabbitmq-prod.cloudev7.online" }
   "dispatch.dev.amqpuser" = { type = "String", value = "roboshop" }
   "dispatch.prod.amqppass" = { type = "String", value = "roboshop123"}
 

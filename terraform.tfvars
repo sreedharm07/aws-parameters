@@ -7,7 +7,7 @@ parameters = {
     type = "String", value = "dev-docdb-cluster.cluster-cbdb4ns9r3ce.us-east-1.docdb.amazonaws.com"
   }
   "db.dev.username" = { type = "String", value = "roboshopdocdb" }
-  "db.dev.password" = { type = "String", value = "roboshop123" }
+  "db.dev.password" = { type = "SecureString", value = "roboshop123" }
 
 
 
@@ -24,7 +24,7 @@ parameters = {
   "shipping.dev.cartendpoint" = { type = "String", value = "cart-dev.cloudev7.online:80" }
   "shipping.dev.dbhost"       = {type = "String", value = "dev-mysql-cluster.cluster-cbdb4ns9r3ce.us-east-1.rds.amazonaws.com"}
   "shipping.dev.mysqluname" = { type = "String", value = "rdsuserdb" }
-  "shipping.dev.mysqlpassword" = { type = "String", value = "rds123321123" }
+  "shipping.dev.mysqlpassword" = { type = "SecureString", value = "rds123321123" }
 #  dev-mysql-cluster.cluster-cbdb4ns9r3ce.us-east-1.rds.amazonaws.com
 
   "payment.dev.carthost" = { type = "String", value = "cart-dev.cloudev7.online" }
@@ -42,8 +42,8 @@ parameters = {
   "docdb-dev-username" = { type = "String", value = "roboshopdocdb" }
 
   #passwords
-  "docdb-dev-password" = { type = "String", value = "roboshop123" }
-  "rds-dev-password"   = { type = "String", value = "rds123321123" }
+  "docdb-dev-password" = { type = "SecureString", value = "roboshop123" }
+  "rds-dev-password"   = { type = "SecureString", value = "rds123321123" }
 
   #elasticslash
   "elastic-username" = { type = "String", value = "elastic" }
@@ -51,7 +51,7 @@ parameters = {
 
   #nexus
   "nexus.dev.username" = { type = "String", value = "admin" }
-  "nexus.dev.password" = { type = "String", value = "admin123" }
+  "nexus.dev.password" = { type = "SecureString", value = "admin123" }
 
   "payment.dev.appversion" = { type = "String", value = "1.0.0" }
   "frontend.dev.appversion" = { type = "String", value = "1.0.0" }

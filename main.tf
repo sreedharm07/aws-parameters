@@ -5,3 +5,4 @@ resource "aws_ssm_parameter" "main" {
   value = each.value["value"]
   key_id = "arn:aws:kms:us-east-1:120752001195:key/90368eb1-f0ed-4e4f-bd9f-5c38abef1dd7"
 }
+

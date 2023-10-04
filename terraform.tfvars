@@ -120,7 +120,7 @@ parameters = {
   "shipping.prod.appversion" = { type = "String", value = "1.0.1" }
 
   "rds-prod-dbname" = { type = "String", value = "mysql31" }
-  "rds-dev-username" = { type = "String", value = "rdsuserdb" }
+  "rds-prod-username" = { type = "String", value = "rdsuserdb" }
 
   "db.prod.backend" = {
     type = "String", value = "prod-docdb-cluster.cluster-cbdb4ns9r3ce.us-east-1.docdb.amazonaws.com"

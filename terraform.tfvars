@@ -128,3 +128,5 @@ parameters = {
   "db.prod.username" = { type = "String", value = "roboshopdocdb" }
   "db.prod.password" = { type = "SecureString", value = "roboshop123" }
 }
+
+##

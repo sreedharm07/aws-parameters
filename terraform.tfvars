@@ -108,7 +108,11 @@ parameters = {
   "rds-prod-password"   = { type = "SecureString", value = "rds123321123" }
 
 
-  "catalogue.pod.mongo_url" = { type = "SecureString", value = "mongodb://roboshopdocdb:roboshop123@prod-docdb-cluster.cluster-cbdb4ns9r3ce.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
+#  "catalogue.pod.mongo_url" = { type = "SecureString", value = "mongodb://roboshopdocdb:roboshop123@prod-docdb-cluster.cluster-cbdb4ns9r3ce.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
+
+  "catalogue.pod.mongo_url" = { type = "SecureString", value = "mongodb://roboshopdocdb:roboshop123@prod-docdb-cluster.cluster-ci3tu6szd4z8.us-east-1.docdb.amazonaws.com:27017/?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
+
+
   "catalogue.prod.DOCUMENTDB" = { type = "String", value = "true" }
 
   #nexus

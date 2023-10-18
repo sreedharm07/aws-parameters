@@ -134,4 +134,19 @@ parameters = {
   }
   "db.prod.username" = { type = "String", value = "roboshopdocdb" }
   "db.prod.password" = { type = "SecureString", value = "roboshop123" }
+
+#eks
+
+  "cart.prod.DOCUMENTDB" = { type = "String", value = "true" }
+
+  "user.pod.mongo_url" = { type = "SecureString", value = "mongodb://roboshopdocdb:roboshop123@prod-docdb-cluster.cluster-ci3tu6szd4z8.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
+
+#  "user.prod.redishost" = {
+#    type = "String", value = "prod-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com"
+#  }
+
+#  "cart.prod.redishost" = {
+#    type = "String", value = "prod-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com"
+#  }
+
 }

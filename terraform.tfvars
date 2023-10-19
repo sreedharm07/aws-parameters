@@ -118,7 +118,6 @@ parameters = {
   #nexus
   "nexus.prod.username" = { type = "String", value = "admin" }
   "nexus.prod.password" = { type = "SecureString", value = "admin123" }
-
   "payment.prod.appversion" = { type = "String", value = "1.0.0" }
   "frontend.prod.appversion" = { type = "String", value = "1.0.0" }
   "catalogue.prod.appversion" = { type = "String", value = "1.0.1" }
@@ -141,12 +140,22 @@ parameters = {
 
   "user.pod.mongo_url" = { type = "SecureString", value = "mongodb://roboshopdocdb:roboshop123@prod-docdb-cluster.cluster-ci3tu6szd4z8.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
 
-#  "user.prod.redishost" = {
+  "rds.prod.endpoint"       = {type = "String", value = "prod-mysql-cluster.cluster-cbdb4ns9r3ce.us-east-1.rds.amazonaws.com"}
+
+  #  "user.prod.redishost" = {
 #    type = "String", value = "prod-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com"
 #  }
 
 #  "cart.prod.redishost" = {
 #    type = "String", value = "prod-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com"
 #  }
+
+#  "db.prod.backend" = {
+#    type = "String", value = "prod-docdb-cluster.cluster-cbdb4ns9r3ce.us-east-1.docdb.amazonaws.com"
+#  }
+
+  "rds.prod.mysqluname" = { type = "String", value = "rdsuserdb" }
+  "rds.prod.mysqlpassword" = { type = "SecureString", value = "rds123321123" }
+
 
 }

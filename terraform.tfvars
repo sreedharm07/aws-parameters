@@ -80,7 +80,7 @@ parameters = {
   "cart.prod.redishost" = {
     type = "String", value = "prod-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com"
   }
-  "cart.prod.cataloguehost" = { type = "String", value = "catalogue-prod.cloudev7.online" }
+  "cart.prod.cataloguehost" = { type = "String", value = "catalogue" }
   "cart.prod.catalogueport" = { type = "String", value = "80" }
 
   "shipping.prod.cartendpoint" = { type = "String", value = "cart-prod.cloudev7.online:80" }

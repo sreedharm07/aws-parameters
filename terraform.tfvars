@@ -75,16 +75,17 @@ parameters = {
 
   "user.prod.redishost" = {
     #    type = "String", value = "dev-redis-elasticache-cluster.ppugfs.0001.use1.cache.amazonaws.com"
-    type = "String", value = "prod-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com"
+    type = "String", value = "prod-cache-cluster.3jrcib.0001.use1.cache.amazonaws.com"
   }
   "cart.prod.redishost" = {
-    type = "String", value = "prod-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com"
+    type = "String", value = "prod-cache-cluster.3jrcib.0001.use1.cache.amazonaws.com"
   }
   "cart.prod.cataloguehost" = { type = "String", value = "catalogue" }
   "cart.prod.catalogueport" = { type = "String", value = "80" }
 
   "shipping.prod.cartendpoint" = { type = "String", value = "cart-prod.cloudev7.online:80" }
-  "shipping.prod.dbhost"       = {type = "String", value = "prod-mysql-cluster.cluster-cbdb4ns9r3ce.us-east-1.rds.amazonaws.com"}
+  "shipping.prod.dbhost"       = {type = "String", value = "prod-mysql-cluster.cluster-ci3tu6szd4z8.us-east-1.rds.amazonaws.com"}
+
   "shipping.prod.mysqluname" = { type = "String", value = "rdsuserdb" }
   "shipping.prod.mysqlpassword" = { type = "SecureString", value = "rds123321123" }
   #  dev-mysql-cluster.cluster-cbdb4ns9r3ce.us-east-1.rds.amazonaws.com
@@ -140,7 +141,7 @@ parameters = {
 
   "user.pod.mongo_url" = { type = "SecureString", value = "mongodb://roboshopdocdb:roboshop123@prod-docdb-cluster.cluster-ci3tu6szd4z8.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
 
-  "rds.prod.endpoint"       = {type = "String", value = "prod-mysql-cluster.cluster-cbdb4ns9r3ce.us-east-1.rds.amazonaws.com"}
+  "rds.prod.endpoint"       = {type = "String", value = "prod-docdb-cluster.cluster-ci3tu6szd4z8.us-east-1.docdb.amazonaws.com"}
 
   #  "user.prod.redishost" = {
 #    type = "String", value = "prod-cache-cluster.lcqx57.0001.use1.cache.amazonaws.com"

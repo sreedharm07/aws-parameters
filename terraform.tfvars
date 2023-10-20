@@ -83,18 +83,18 @@ parameters = {
   "cart.prod.cataloguehost" = { type = "String", value = "catalogue" }
   "cart.prod.catalogueport" = { type = "String", value = "80" }
 
-  "shipping.prod.cartendpoint" = { type = "String", value = "cart-prod.cloudev7.online:80" }
+  "shipping.prod.cartendpoint" = { type = "String", value = "cart:80" }
   "shipping.prod.dbhost"       = {type = "String", value = "prod-mysql-cluster.cluster-ci3tu6szd4z8.us-east-1.rds.amazonaws.com"}
 
   "shipping.prod.mysqluname" = { type = "String", value = "rdsuserdb" }
   "shipping.prod.mysqlpassword" = { type = "SecureString", value = "rds123321123" }
   #  dev-mysql-cluster.cluster-cbdb4ns9r3ce.us-east-1.rds.amazonaws.com
 
-  "payment.prod.carthost" = { type = "String", value = "cart-prod.cloudev7.online" }
+  "payment.prod.carthost" = { type = "String", value = "cart" }
   "payment.prod.cartport" = { type = "String", value = "80" }
-  "payment.prod.userhost" = { type = "String", value = "user-prod.cloudev7.online" }
+  "payment.prod.userhost" = { type = "String", value = "user" }
   "payment.prod.userport" = { type = "String", value = "80" }
-  "payment.prod.amqphost" = { type = "String", value = "rabbitmq-prod.cloudev7.online" }
+  "payment.prod.amqphost" = { type = "String", value = "rabbitmq" }
   "payment.prod.amqpuser" = { type = "String", value = "roboshop" }
   "payment.prod.amqppass" = { type = "String", value = "roboshop123" }
 

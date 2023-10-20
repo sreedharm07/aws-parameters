@@ -138,8 +138,10 @@ parameters = {
 #eks
 
   "cart.prod.DOCUMENTDB" = { type = "String", value = "true" }
+  "user.prod.DOCUMENTDB" = { type = "String", value = "true" }
 
-  "user.pod.mongo_url" = { type = "SecureString", value = "mongodb://roboshopdocdb:roboshop123@prod-docdb-cluster.cluster-ci3tu6szd4z8.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
+
+  "user.pod.mongo_url" = { type = "SecureString", value = "mongodb://roboshopdocdb:roboshop123@prod-docdb-cluster.cluster-ci3tu6szd4z8.us-east-1.docdb.amazonaws.com:27017/user?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
 
   "rds.prod.endpoint"       = {type = "String", value = "prod-docdb-cluster.cluster-ci3tu6szd4z8.us-east-1.docdb.amazonaws.com"}
 
